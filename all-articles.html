@@ -15,7 +15,7 @@ permalink: /archiv-clanku
             <h2>
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a>
             </h2>
-            <div>{{ post.content |truncatehtml | truncatewords: 50 }}</div>
+            <div>{{ post.content |truncatehtml | truncatewords: 20 }}</div>
         </li>
         {% endfor %}
     </ul>
