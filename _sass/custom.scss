@@ -1,0 +1,42 @@
+.post-image {
+  float:left;
+  max-width: 300px;
+  margin: 0 10px 10px 0;
+  padding: 3px;
+  border: 1px solid #ccc
+}
+ul.navigation {
+  list-style: none;
+  display: table-row;
+}
+ul.navigation li {
+  line-height: 56px;
+  display: table-cell;
+}
+form#search {
+  line-height: 56px;
+}
+form#search input, button {
+  border: 1px solid #cccccc;
+  line-height: 2em;
+}
+//form#search input {width: 70%}
+form#search input[name=q] {padding-left: 1em }
+form#search button {background: #cccccc; border: none}
+body {border-top: 5px solid #2a7ae2; }
+.web {
+  border: 1px solid #cccccc;
+  border-top: 0;
+}
+.center {
+  text-align: center;
+}
+.right {
+  float: right;
+}
+.article {
+  padding: 1em;
+  margin-top: 1em;
+
+}
+h1 {font-size: 20px}

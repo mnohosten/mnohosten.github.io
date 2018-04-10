@@ -1,7 +1,7 @@
 ---
 layout: default
-title: O mně
-permalink: /o-mne
+title: DEV Fridays
+permalink: /dev-fridays
 ---
 
 # Kdo je Martin Křižan?

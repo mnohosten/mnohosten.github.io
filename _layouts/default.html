@@ -1,20 +1,44 @@
 <!DOCTYPE html>
 <html>
+<head>
+    {% include head.html %}
+    <!-- all the important responsive layout stuff -->
+    <style>
+        .container { max-width: 55em; }
 
-  {% include head.html %}
+        /* you only need width to set up columns; all columns are 100%-width by default, so we start
+           from a one-column mobile layout and gradually improve it according to available screen space */
 
-  <body>
+        @media only screen and (min-width: 34em) {
+            .feature, .info { width: 50%; }
+        }
 
+        @media only screen and (min-width: 54em) {
+            .content { width: 66.66%; }
+            .sidebar { width: 33.33%; }
+            .info    { width: 100%;   }
+        }
+
+        @media only screen and (min-width: 76em) {
+            .content { width: 60%; } /* 7/12 */
+            .sidebar { width: 40%; } /* 5/12 */
+            .mid     { width: 50%;    }
+
+            .nav-title     {width: 25%; }
+            .nav-menu     {width: 45%; }
+            .nav-search     {width: 30%; }
+        }
+    </style>
+</head>
+
+<body>
+<div class="web container">
     {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
+    <div class="row article">
         {{ content }}
-      </div>
     </div>
-
     {% include footer.html %}
-
-  </body>
+</div>
+</body>
 
 </html>
