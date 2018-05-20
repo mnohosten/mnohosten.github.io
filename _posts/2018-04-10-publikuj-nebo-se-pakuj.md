@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Publikuj nebo se pakuj"
-date:   2016-04-26 21:49:53 +0200
+date:   2018-04-10 21:49:53 +0200
 ---
 
 Pamatuji si na první hodinu Fyzikálního semináře na mojí bývalé škole. Tam se 
