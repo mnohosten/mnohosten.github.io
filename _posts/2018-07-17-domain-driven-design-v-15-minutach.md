@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Domain Driven Design v 15 minutách"
-date:   2018-04-10 15:03:03 +0200
+date:   2018-07-17 15:03:03 +0200
 ---
 
 Pokud jste někdy pracovali na rozsáhlejším projektu tak jste jistě museli řešit jakou použít strukturu aplikace tak aby byla přehledná a snadno udržitelná. Tímto problémem se mimo jiné zabývá Domain Driven Design, zkráceně DDD, a ten se vám pokusím v krátkosti představit.
