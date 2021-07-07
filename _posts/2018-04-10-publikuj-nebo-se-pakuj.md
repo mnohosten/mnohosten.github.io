@@ -35,7 +35,7 @@ To je nejspíše hlavní důvod proč jsem se rozhdonul začít psát blog o vě
 
 ## Jekyll
 
-Tento blog je hostovany na githubu a jeho [kod je verejny](https://github.com/mnohosten/mnohosten.github.io).
+Tento blog je hostovany na githubu a jeho [kód je veřejný](https://github.com/mnohosten/mnohosten.github.io).
  Rozhodl jsem si nepsat nejake primitivni reseni a pouzit jiz neco existujiciho 
  a dostatecne minimalistickeho. Pro tyto ucely mi paradne slouzi platforma 
  Jekyll, kterou bych vam tímto rád doporučil.
